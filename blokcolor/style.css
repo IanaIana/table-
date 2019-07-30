@@ -1,0 +1,60 @@
+body{
+	/*display:inline-block;*/
+	height: 1000px;
+	width: 100%;
+}
+.name{
+	font-family: 'Ropa Sans',sans-serif;
+	font-size: 25px;
+	margin-left: 5%;
+}
+.contener{
+	height: 100%;
+	/*display:inline;*/
+}
+.block1{
+	display: inline-block;
+	height: 50%;
+	width: 50%;
+	float: right;
+}
+.block3{
+	height: 50%;
+	width: 50%;
+	background-color: red;
+}
+.top1{
+	height: 50%;
+	width: 100%;
+	float: right;
+	background-color: green;
+}
+div{
+	box-sizing: border-box;
+	border: solid 3px white;
+}
+.block2{
+	height: 50%;
+	width: 100%;
+	clear: both;
+	background-color: gold;
+
+}
+.top2{
+	height: 100%;
+	width: 50%;
+	float: left;
+	background-color: blue;
+}
+.lll{
+	height: 50%;
+	width: 50%
+	background-color:coral;
+	float: right;
+}
+.ll{
+	height: 50%;
+	width: 50%;
+	background-color: pink;
+	float: right;
+}
