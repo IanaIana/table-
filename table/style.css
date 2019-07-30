@@ -1,0 +1,26 @@
+
+    ul #names li {
+    display:inline-block; /* Отображать как строчный элемент */
+}
+    #names li{
+    display:inline-block; /* расположить пункты горизонтально */
+    text-align: center; /* текст горизонтально по центру */
+
+   }
+   ul {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    list-style: none; 
+
+}
+#nanes {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+table{
+	width: auto;
+	height: auto;
+	border-spacing: 4px; /* Расстояние между ячейками */
+}
